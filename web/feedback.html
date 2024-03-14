@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedback</title>
+     <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/stylefeed.css">
+</head>
+<body>
+
+    <a class="back" href="index.html">Back</a>
+
+    <div class="forma-back">
+
+        <div class="fedback-lable">
+            <a class="fedback-lable-txt" href="#fedback">Зворотній зв'язок</a>
+        </div>
+
+        <form class="forma">
+
+            <div class="xxx">
+                <label>
+                    <h5>Ім'я</h5>
+                    <input class="box" type="text" placeholder="Іван">
+                </label>
+            </div>
+
+            <div class="xxx">
+                <label>
+                    <h5>Призвіще</h5>
+                    <input class="box" type="text" placeholder="Іванов гандон (як і Петров)">
+                </label>
+            </div>
+            
+            <div class="xxx">
+                <label class="dr">
+                    <h5>Дата народження</h5>
+                    <input class="box" type="date">
+                </label>
+            </div>
+
+            <!-- Sex -->
+            <div class="xxx">
+                <h5>Стать</h5>
+                <div class="box">
+                    <label >
+                        <input type="radio" name="sex" value="man" checked>
+                       <span class="sex-name">чоловік</span> 
+                    </label>
+                
+                    <label style="padding-right: 16px;">
+                        <input type="radio" name="sex" value="woman" >
+                        <span class="sex-name">жінка</span>
+                    </label>
+                </div>
+            </div>
+
+            <br>
+             <div class="line"></div>
+            <br> 
+
+            <!-- Most enjoy track -->
+            <div class="xxx">
+                <label>
+                    <h5>Трек, який сподобався найбільше</h5>
+                    <select class="track-t, box" name="track" >
+                        <option value="0">--Назва треку--</option>
+                        <option value="1">♥AI Чех♥</option>
+                        <option value="2">Голоса</option>
+                        <option value="3">OPIUM BABY</option>
+                        <option value="4">stillwade x luxuuup</option>
+                        <option value="5">ты - вирус</option>
+                        <option value="6">Дим (feat. luxuuup)</option>
+                        <option value="7">все странно</option>
+                        <option value="8">ты</option>
+                    </select>
+                </label>
+            </div>
+            <br><br>
+
+
+            <div class="xxx">
+                <label>
+                <h5>Чи виправдилися ваші очікування</h5>
+                    <textarea class="box" name="" id="" cols="16" rows="5" placeholder="Напишіть що ви думаєте про молодого генія / Загальні коментрі"></textarea>
+                </label>
+            </div>
+            <br><br>
+
+            <div class="xxx">
+                <label>
+                <h5>Що б  Ви додали?</h5>
+                    <textarea class="box" name="" id="" cols="16" rows="5" placeholder="Що б ви хотіли бачити"></textarea>
+                </label>
+            </div>
+            <br><br>
+        
+            <!-- Кнопка відправити -->
+            <button class="pib">Відправити</button>
+
+        </form>
+        </div>
+</body>
+</html>

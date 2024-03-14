@@ -1,0 +1,128 @@
+
+body{
+    background: #ffffff;
+    padding: 20px 20px 20px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+font-size: 48px;
+margin-top: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    margin-right: 450px ;
+}
+
+/* nav bar */
+
+.container{
+    margin: 0 312px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 750;
+    font-size: 20px;
+
+    transition: color 0.3s linear;
+}
+
+nav a:hover{
+    color: rgb(201, 48, 48);
+}
+
+
+.title-name{
+
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+
+}
+
+/* Sidebar */
+
+.sidebar {
+    background: #412b2b;
+    box-sizing: border-box;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.name{
+    color: #fff;
+    font-size: 20px ;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+aside img{
+    margin-bottom: 24px;
+}
+
+aside p{
+    color: #fff;
+    margin-left: 8px;
+    font-weight: 500;
+    text-align: left;
+    padding: 12px 0;
+}
+
+/* Biography */
+
+.bio{
+    margin-top: 40px;
+}
+
+.info{
+    margin-bottom: 40px ;
+}
+
+.bio-a{
+    text-decoration: none;
+    transition: color 0.3s ;
+}
+
+.bio-a:hover{
+color: rgb(255, 0, 200);
+}
+
+
+
+/* Musical doing? */
+
+li a{
+    color: #000;
+    transition: color 0.3s linear;
+}
+
+li a:hover{
+    color: rgb(26, 216, 26);
+}
+
+.spot-li{
+    margin-left: 20px;
+    padding-bottom: 6px;
+}
+
+
+
