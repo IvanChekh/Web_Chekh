@@ -1,6 +1,6 @@
 
 body{
-    background: #ffffff;
+    background: rgb(29, 29, 29) ;
     padding: 20px 20px 20px 20px;
     font-family: "Montserrat", sans-serif;
     transition: 1s;
@@ -9,11 +9,10 @@ body{
 h1 {
 font-size: 48px;
 margin-top: 0px;
-color: #000;
 }
 
 a{
-    color: #000;
+    color: #fff;
 }
 
 *{
@@ -40,7 +39,7 @@ nav{
 }
 
 nav a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-weight: 750;
     font-size: 20px;
@@ -54,40 +53,39 @@ nav a:hover{
 
 
 .title-name{
-    color: #000;
+    color: #fff;
     text-align: center;
     font-size: 70px;
     margin-top: 40px;
 
 }
 
+
 /* d/l mode */
 .btn{
     display: flex;
-    align-items: left;
 }
 
 button{
-    border: none;
+    border: 20px;
     border-radius: 3px;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-size: 20px;
     outline: none;
     padding: 8px;
-
     transition: color background-color 0.3s linear;
 }
 
 button:hover{
-    background-color: #000000;
-    color: rgb(184, 243, 23);
+    background-color: #fff;
+    color: rgb(0, 89, 255);
 }
 
 /* Sidebar */
 
 .sidebar {
-    background: #2e2e2e;
+    background: #dfdfdf;
     box-sizing: border-box;
     width: 400px;
     display: flex;
@@ -98,7 +96,7 @@ button:hover{
 }
 
 .name{
-    color: #fff;
+    color: #000;
     font-size: 20px ;
     font-weight: 700;
     margin-bottom: 24px;
@@ -109,7 +107,7 @@ aside img{
 }
 
 aside p{
-    color: #fff;
+    color: #000;
     margin-left: 8px;
     font-weight: 500;
     text-align: left;
@@ -118,19 +116,21 @@ aside p{
 
 /* Biography */
 
-.dm{
-    color: #000;
-}
-
 .bio{
     margin-top: 40px;
 }
 
+.dm{
+    color: #fff;
+}
+
 .info{
     margin-bottom: 40px ;
+    color: #fff;
 }
 
 .bio-a{
+    text-decoration: none;
     transition: color 0.3s ;
 }
 
@@ -141,7 +141,7 @@ color: rgb(255, 0, 200);
 /* Musical doing? */
 
 li a{
-    color: #000;
+    color: #fff;
     transition: color 0.3s linear;
 }
 
@@ -154,5 +154,15 @@ li a:hover{
     padding-bottom: 6px;
 }
 
+
+/* table */
+
+table th{
+    color:#fff
+}
+
+table{
+    border: #fff;
+}
 
 

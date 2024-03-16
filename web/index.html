@@ -1,27 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chekh Ivan Lab2</title>
+
+
     <link rel="shortcut icon" href="img/luxxup.jpg">
         <!-- font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css" id="theme">
 </head>
 
 <body>
 
-    <!-- Nav bar -->
-    <div class="container">
-        <nav>   
-                <a href="song.html">Song</a>
-                <a href="feedback.html">Зворотній зв’язок</a>
-                <a href="registration.html">Реєстрація</a>
-                <a href="#">Invoice</a>
-        </nav>
+    <div class="nav-btn">
+        <!-- button dark/lite mode -->
+        <div class="btn">
+            <button id="switchMode">Тема</button>
+        </div>
+
+        <!-- Nav bar -->
+        <div class="container">
+            <nav>   
+                    <a href="song.html">Song</a>
+                    <a href="feedback.html">Зворотній зв’язок</a>
+                    <a href="registration.html">Реєстрація</a>
+                    <a href="#">Invoice</a>
+            </nav>
+        </div>
+        
     </div>
 
 
@@ -44,11 +48,11 @@
 
 <main>
     <!-- Biography -->
-    <div>
+    <div class="dm">
     <h2 class="bio">Біографія</h2>
     <p class="info">Нерощин Данііл Олексійович - у професійних колах більш відомий, як luxuuup. Народився 10 березня 2006 року в місті Київ. 
     Наразі навчається у <a href="https://sites.google.com/view/kkz">КФКЗ</a> та підпрацьовує <s>круп'є в онлайн казино</s>. 
-    Любить стиль опіум та свою дівчину <a href="https://www.instagram.com/ann.pearlll/" target="_blank" style="text-decoration: none;" ><span class="bio-a">(♥подивіться які у неї злоті руки♥)</span></a>.
+    Любить стиль опіум та свою дівчину <a href="https://www.instagram.com/ann.pearlll/" target="_blank"  ><span class="bio-a">(♥подивіться які у неї злоті руки♥)</span></a>.
     </p>
     </div>
 
@@ -117,7 +121,7 @@
     <br>
     <br>
     
-    <div>
+    <div class="dm">
         <h2>Додаткова інформація</h2>
 
         <h4>Прайс лист</h4>
@@ -191,5 +195,7 @@
 
 </main>
 
+
+<script src="script.js"></script>
 </body>
 </html>
