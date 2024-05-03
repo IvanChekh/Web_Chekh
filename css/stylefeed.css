@@ -1,0 +1,97 @@
+body{
+    background: #ffffff;
+    padding: 20px 20px 20px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h5{
+    font-size: 16px;
+}
+
+.back{
+    margin: 20px 20px;
+    background-color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: #000 2px solid;
+    border-radius: 10px;
+
+    transition: all 0.3s linear;
+}
+
+.back:hover{
+    background-color: #000;
+    color: #fff
+}
+
+.forma-back {
+    border: #000 solid 5px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7c77778e ;
+    width: 800px;
+    margin-top: 20px ;
+}
+
+.fedback-lable{
+    padding-top: 60px; 
+    text-align: center;
+}
+
+.fedback-lable-txt{
+    font-size: 36px;
+    text-decoration: none;
+    color: #353535; 
+    font-weight: bold;
+}
+
+.forma{
+    margin: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    color: #353535;
+}
+
+.xxx{
+    margin-bottom: 8px;
+    flex-direction: column;
+    column-count: 2;
+    column-gap: -5px;
+}
+
+.box{
+    width: 200px;
+    padding: 5px;
+    margin-left: 118px;
+}
+
+.line{
+    width: 680px;
+    border-top: 2px solid #000
+}
+
+.sex {
+    margin-left: -60px ;
+}
+
+.sex-name{
+    font-weight: bold;
+}
+
+.track-t{
+    font-size: 24px;
+    text-align: center;
+}
+
+.text-a{
+    margin-left: -60px ;
+    font-size: 18px;
+
+}

@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: url(ginTonik.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -350px;
+
+}
+.bg-text {
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 130px;
+    padding-top: 170px;
+    text-shadow: 0 0 20px #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 4s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+.bg-text::after {
+    animation: blink-caret 0.75s step-end infinite;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+main img{
+    width: 800px;
+    padding: 10px 10px;
+}
+
+main div{
+    padding: 20px;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+
+}
