@@ -1,0 +1,43 @@
+.block {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    left: 0;
+  }
+
+  .block1 {
+    background: linear-gradient(to bottom right, rgb(199, 219, 248), rgb(131, 168, 145));
+  }
+
+  .block2 {
+    top: 150px; 
+    left: 150px;
+    background: linear-gradient(to bottom right, rgb(131, 168, 145), rgb(71, 13, 105));
+  }
+
+  .block3 {
+    top: 300px; 
+    left: 300px;
+    background: linear-gradient(to bottom right, rgb(71, 13, 105), rgb(139, 168, 112));
+  }
+
+  .block4 {
+    top: 450px; 
+    left: 450px;
+    background: linear-gradient(to bottom right, rgb(139, 168, 112), rgb(199, 219, 248));
+  }
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    background: linear-gradient( 90deg, #0ff, #ff00c3);
+    -webkit-background-clip: text;
+    background-clip:text ;
+    -webkit-text-fill-color: transparent;
+}
